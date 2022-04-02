@@ -63,6 +63,8 @@ The following **additional** features are implemented:
 - https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+
+
    For me, the most challenging part of the Light and Sound Memory Game project was to figure out how to align the game buttons so that
    they stay in the middle of the webpage. I tried to center them by using different position properties, float properties, display
    properties, and text-align properties. None of the properties would help me obtain the desired output. I used the “Inspect” tool to try
@@ -71,13 +73,14 @@ The following **additional** features are implemented:
    on how to fix it. I tried to treat the game buttons as if they were images. That also did not help with the alignment. I was not able
    to adjust the buttons by using the mentioned css properties. Therefore, I decided to manually adjust the buttons so that they appear
    in the middle of the page. I increased the left- and right-margins for each game button to get the effect of them being centered.
-   I realize I am missing a small puzzle. I believe this has something to do with the <div> being a parent for the buttons. I tried the
-   different properties on the <div>’s ID and also the buttons’ ID’s to see the behavior of the inheritance. Unfortunately none would
+   I realize I am missing a small puzzle. I believe this has something to do with the 'div' being a parent for the buttons. I tried the
+   different properties on the 'div'’s ID and also the buttons’ ID’s to see the behavior of the inheritance. Unfortunately none would
    give the wished result.
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
-   How to align the buttons in the middle of <div>?
+ 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
+
+- How to align the buttons in the middle of 'div'?
 - Do developers run into similar problems to mine? Is it common to have issues with element positioning on the webpage?
 - Are there any other ways to fix that problem?
 - Was my project part of full-stack web development? – Is the JavaScript part of the back-end?
@@ -87,6 +90,8 @@ The following **additional** features are implemented:
 - What percentage of a web designer’s job is to actually write code? – I have noticed that planning and researching through the documentation took me the majority of the time (besides getting stuck at CSS positioning).
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
+
+
    If I had more time to work on the project, I would work out how to align the buttons in the middle of the div. I would also add more
    features into the project. For example, I would read on how to add a timer, so that the player would have to make a decision under
    pressure. This would add another level of difficulty to the game. Maybe a point scoring system so that it is more rewarding and
